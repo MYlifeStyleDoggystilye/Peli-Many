@@ -50,18 +50,14 @@
     <a href="#" class="nav__links">Контакты</a>
     </div>
     <div class="nav__btn">
-        <a href="#" class="nav__btn_link">Корзина
-            <div class="nav__btn_block">
-                <img src="./img/anime.png" alt="" class="nav__btn_block-btn_block_img">
-                <span class="nav__btn_block-btn_block_text">С-с-сенпай, ты не хочешь мой пельмешек?</span>
-            </div>
+        <a href="#" class="nav__btn_link">Корзина {{card}}
         </a>
     </div>
 
 
 
 
-                  <div class="burger-menu">
+    <div class="burger-menu">
         <span class="material-icons-outlined">reorder</span>
         <div class="burger-menu__links">
             <a href="#" class="burger-menu__links_item">О нас</a>
@@ -76,63 +72,124 @@
 </header>
 <main class="main">
 <div class="container">
-<div class="slider">
-    <div class="slider-track">
-        <div class="slider-track__item">
-            <a href="#" class="slider-track__item_link"><img src="https://dummyimage.com/1200x400/ff8500/000" alt="" class="slider-track__item_img"></a>
+    <div class="slider">
+        <div class="slider-track">
+            <div class="slider-track__item">
+                <a href="#" class="slider-track__item_link"><img src="https://picsum.photos/1200/401" alt="" class="slider-track__item_img"></a>
+            </div>
+            <div class="slider-track__item">
+                <a href="#" class="slider-track__item_link"><img src="https://picsum.photos/1200/402" alt="" class="slider-track__item_img"></a>
+            </div>
+            <div class="slider-track__item">
+                <a href="#" class="slider-track__item_link"><img src="https://picsum.photos/1200/403" alt="" class="slider-track__item_img"></a>
+            </div>
+            <div class="slider-track__item">
+                <a href="#" class="slider-track__item_link"><img src="https://picsum.photos/1200/404" alt="" class="slider-track__item_img"></a>
+            </div>
+            <div class="slider-track__item">
+                <a href="#" class="slider-track__item_link"><img src="https://picsum.photos/1201/400" alt="" class="slider-track__item_img"></a>
+            </div>
+            <div class="slider-track__item">
+                <a href="#" class="slider-track__item_link"><img src="https://picsum.photos/1202/400" alt="" class="slider-track__item_img"></a>
+            </div>
+            <div class="slider-track__item">
+                <a href="#" class="slider-track__item_link"><img src="https://picsum.photos/1200/400" alt="" class="slider-track__item_img"></a>
+            </div>
         </div>
-        <div class="slider-track__item">
-            <a href="#" class="slider-track__item_link"><img src="https://dummyimage.com/1200x400/ff5500/fff" alt="" class="slider-track__item_img"></a>
-        </div>
-        <div class="slider-track__item">
-            <a href="#" class="slider-track__item_link"><img src="https://dummyimage.com/1200x400/ffc800/fff" alt="" class="slider-track__item_img"></a>
-        </div>
-        <div class="slider-track__item">
-            <a href="#" class="slider-track__item_link"><img src="https://dummyimage.com/1200x400/ffa200/fff" alt="" class="slider-track__item_img"></a>
-        </div>
-        <div class="slider-track__item">
-            <a href="#" class="slider-track__item_link"><img src="https://dummyimage.com/1200x400/ff7b00/fff" alt="" class="slider-track__item_img"></a>
-        </div>
-        <div class="slider-track__item">
-            <a href="#" class="slider-track__item_link"><img src="https://dummyimage.com/1200x400/ff5e00/fff" alt="" class="slider-track__item_img"></a>
-        </div>
-        <div class="slider-track__item">
-            <a href="#" class="slider-track__item_link"><img src="https://dummyimage.com/1200x400/ff2a00/fff" alt="" class="slider-track__item_img"></a>
-        </div>
+        <button class="slider__btn_next"><span class="material-icons-outlined">
+            arrow_forward_ios
+            </span></button>    
+        <button class="slider__btn_back"><span class="material-icons-outlined">
+            arrow_back_ios
+            </span></button>
     </div>
-    <button class="slider__btn_next"><span class="material-icons-outlined">
-        arrow_forward_ios
-        </span></button>    
-    <button class="slider__btn_back"><span class="material-icons-outlined">
-        arrow_back_ios
-        </span></button>
-</div>
-<div class="news">
-    <h2 class="news__tittle">Последние новости</h2>
-    <div class="news__inner">
-        <div class="news__block">
-            <img src="" alt="" class="news__block_img">
-            <h2 class="news__block_tittle">
-                Миша сам как пельмешек
-            </h2>
-            <p class="news__block_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nulla eos inventore commodi perferendis natus quas quasi quidem sunt dignissimos.</p>
-            <a href="" class="news__block_link">читать продолжение</a>
-        </div>
+
+<div class="info-bar">
+<div class="info-bar__item">
+    <div class="info-bar__item_icon"><span class="material-icons-outlined">
+        history
+        </span>
+    </div>
+    <div class="info-bar__item-about">
+        <h3 class="info-bar__item-about_tittle">59 мин.</h3>
+        <span class="info-bar__item-about_text">
+            Время доставки 
+        </span>
     </div>
 </div>
+<div class="info-bar__item">
+    <div class="info-bar__item_icon"><span class="material-icons-outlined">
+        payment
+        </span>
+    </div>
+    <div class="info-bar__item-about">
+        <h3 class="info-bar__item-about_tittle">59 мин.</h3>
+        <span class="info-bar__item-about_text">
+            Время доставки 
+        </span>
+    </div>
+</div>
+<div class="info-bar__item">
+    <div class="info-bar__item_icon"><span class="material-icons-outlined">
+        local_shipping
+        </span>
+    </div>
+    <div class="info-bar__item-about">
+        <h3 class="info-bar__item-about_tittle">59 мин.</h3>
+        <span class="info-bar__item-about_text">
+            Время доставки 
+        </span>
+    </div>
+</div>
+<div class="info-bar__item">
+    <div class="info-bar__item_icon"><span class="material-icons-outlined">
+        file_download_done
+        </span>
+    </div>
+    <div class="info-bar__item-about">
+        <h3 class="info-bar__item-about_tittle">59 мин.</h3>
+        <span class="info-bar__item-about_text">
+            Время доставки 
+        </span>
+    </div>
+</div>
+</div>
+<h2 class="tittle-block">Меню</h2>
+<div class="menu">
+<div class="menu-block">
+    <img src="https://picsum.photos/280/200" alt="" class="menu-block__img">
+   <div class="menu-block__about">
+    <h3 class="menu-block__about_tittle">Пельмени Белорусские</h3>
+    <span class="menu-block__about_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis velit laboriosam nam atque est! At error nostrum similique, repellendus aperiam illum, totam tenetur amet sit minus quos velit vero deserunt?
+    </span>
+   </div>
+    <div class="menu-block__btn">
+       <button class="menu-block__btn_qty-min">0.5 <small>кг</small></button>
+       <button class="menu-block__btn_qty-max">1 <small>кг</small></button>
+    </div>
+    <div class="menu-block__price-list">
+        <span class="menu-block__price-list_price">600 <small>р</small></span>
+        <a href="" class="menu-block__price-list_add-to-card">В корзину</a>
+    </div>
+</div>
+</div>
+
+
+
+<h2 class="tittle-block">
+    О компании
+</h2>
 <div class="about">
-    <h2 class="about__tittle">
-        О компании
-    </h2>
     <p class="about__text">
-        История происхождения пельменей и вареников тянется из глубины веков, эта история такая же старая как и твоя мамаша. За право называться родиной этих вкуснейших мучных изделий с начинкой борются десятки стран, прям как и за твою мамашу. Тесто приготовленное из муки, яйца, воды и начинка - казалось бы, что может быть проще. Но каким разным по вкусу и форме могут получаться пельмени и вареники твоей мамаши... При правильно подобранных ингредиентах пельмени и вареники не только сытное и вкусное блюдо, но и очень полезное! Все питательные вещества усваиваются организмом человека. Такого баланса удалось добиться благодаря правильному подбору ингредиентов и специально разработанной нашими поварами формой.Пели&мен – это наш бренд. Бренд неповторимо аппетитных пельменей и вареников, которые не могут оставаться без имени!...
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit aperiam ea voluptatem, assumenda aspernatur voluptas quos esse accusantium incidunt! Architecto, illo quia veritatis fugit eum aut rerum, sunt laboriosam nulla praesentium laudantium quibusdam? Doloremque, hic, ab expedita dignissimos tempora tenetur nihil, natus voluptatum reiciendis vitae eos temporibus. Aliquid corrupti enim esse cumque tenetur, totam illo error laboriosam consequatur id maxime quia cum necessitatibus velit distinctio officiis sunt quaerat dolores eos voluptate aut mollitia tempora? Cupiditate illo labore vitae nemo! Nam assumenda id rem ipsum illo, corrupti quas laudantium quidem numquam, mollitia animi harum dolorem! Amet adipisci culpa ab omnis.
         <a href="#" class="about__link">Читать дальше...</a>
     </p>
 </div>
+
+<h2 class="tittle-block">
+    Информация об оплате 
+</h2>
 <div class="pay-info">
-    <h2 class="pay-info__tittle">
-        Информация об оплате 
-    </h2>
    <div class="pay-info__block">
     <div class="pay-info__item">
         <h3 class="pay-info__item_tittle">Наличный расчёт</h3>
@@ -159,7 +216,7 @@
                 </h3>
                 <a href="8988811312312" class="footer__column_phone">8988811312312</a>
                 <div class="footer__column_contacts">
-                    г. Санкт-Петербург, ул. Пушкниа, дом Калатушкина
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
             </div>
         </div>

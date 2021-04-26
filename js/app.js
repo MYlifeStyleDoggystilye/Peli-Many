@@ -52,7 +52,3 @@ document.querySelector('.material-icons-outlined').addEventListener('click', fun
         document.querySelector('.material-icons-outlined').style.color = "rgb(53, 53, 53)";
     }
 });
-
-
-
-
